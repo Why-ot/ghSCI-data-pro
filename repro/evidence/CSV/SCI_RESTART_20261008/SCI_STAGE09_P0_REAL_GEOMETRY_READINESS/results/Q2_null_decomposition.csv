@@ -1,0 +1,2 @@
+pooled_rho,between_scene_rho_of_means,within_scene_rho_after_centering,note
+-0.03252833399404757,-0.3216783216783217,-0.020785598204531554,"a within-scene permutation preserves the scene means, so the null distribution is centred on the between-scene component, not on zero"

@@ -1,0 +1,4 @@
+dataset,stratum,local_path,eligible_complete_frames,selected_frames,camera_name,xres,yres,fx,fy,cx,cy,intrinsics_sha256,physical_object_ids_available,scene_ids_available,material_labels_available
+ClearGrasp,real-test/d415,datasets/ClearGrasp/cleargrasp-dataset-test-val/cleargrasp-dataset-test-val/real-test/d415,90,4,D415,848,480,616,615,427,245,4c26a8c2eccc35ebc5f5921b896a33a6cc7504ac80cffc8e6930cdfa1e475c42,False,False,False
+ClearGrasp,real-test/d435,datasets/ClearGrasp/cleargrasp-dataset-test-val/cleargrasp-dataset-test-val/real-test/d435,23,4,D435,1280,720,921,921,642,359,844bcf80a0267bb3d21e573696964dd1a0460e1e16778b3e41a1d4aa9f29e871,False,False,False
+ClearGrasp,real-val/d435,datasets/ClearGrasp/cleargrasp-dataset-test-val/cleargrasp-dataset-test-val/real-val/d435,173,4,D435,1280,720,921,921,642,359,844bcf80a0267bb3d21e573696964dd1a0460e1e16778b3e41a1d4aa9f29e871,False,False,False

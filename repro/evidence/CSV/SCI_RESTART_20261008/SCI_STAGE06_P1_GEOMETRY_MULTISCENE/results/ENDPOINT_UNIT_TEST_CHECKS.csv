@@ -1,0 +1,12 @@
+case,field,op,threshold,value,pass
+no_perturbation,E1_contact_pos_change_mm,abs_lt,1e-06,0.0,True
+no_perturbation,E2_normal_change_deg,abs_lt,0.01,0.00011459029153797541,True
+no_perturbation,E3_width_change_mm,abs_lt,0.001,0.0,True
+pure_translation_30mm,E1_contact_pos_change_mm,gt,20.0,30.006070011726685,True
+pure_translation_30mm,E2_normal_change_deg,abs_lt,0.05,0.00011459029153797541,True
+pure_translation_30mm,E3_width_change_mm,abs_lt,0.5,0.25890277298780406,True
+pure_tilt_8deg,E2_normal_change_deg,gt,7.0,7.974137752923389,True
+pure_tilt_8deg,E1_contact_pos_change_mm,gt,0.5,1.0026626705975223,True
+pure_curvature_10mm_sag,E2_normal_change_deg,gt,0.5,3.25907504256984,True
+pure_curvature_10mm_sag,E3_width_change_mm,gt,0.1,0.3716812278646703,True
+depth_boundary_step_150mm,E1_contact_pos_change_mm,gt,5.0,30.010530123484454,True

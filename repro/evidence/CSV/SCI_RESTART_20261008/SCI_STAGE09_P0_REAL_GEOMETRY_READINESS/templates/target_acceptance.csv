@@ -1,0 +1,7 @@
+﻿target_id,nominal_mm,A1_present,A2_no_warping,A3_matte,A4_sharp_edge,A5_stable_mount,A6_dims_ok,flatness_mm,parallelism_deg,notes
+S00,0,,,,,,,,
+S20,20,,,,,,,,
+S40A,40,,,,,,,,
+S40B,40,,,,,,,,
+S60,60,,,,,,,,
+

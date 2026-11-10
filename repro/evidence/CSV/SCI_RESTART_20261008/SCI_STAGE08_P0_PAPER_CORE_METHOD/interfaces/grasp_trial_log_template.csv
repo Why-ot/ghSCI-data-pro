@@ -1,0 +1,1 @@
+trial_id,date,object_id,object_category,placement_id,arm,camera_serial,grasp_candidate_id,method_arm,gnset_score,predicted_risk,executed,first_attempt_success,failure_mode,contact_error_mm,operator,notes

@@ -1,0 +1,3 @@
+tag,status,expected_cases_total,expected_corruption_cases,expected_clean_identity_cases,actual_cases_total,expected_candidate_rows,actual_candidate_rows,unique_composite_rows,duplicate_composite_rows,missing_cases,unexpected_cases,unexpected_candidate_rows,bad_case_candidate_counts,max_abs_rg_recomputed_minus_stored,max_abs_decomposition_identity_error
+final,FAIL,23040,21600,1440,23040,1621376,1621376,1621376,0,0,0,0,0,1.980841810023115e-07,5.551115123125783e-17
+holdout,FAIL,16592,16320,272,16592,1096048,1096048,1096048,0,0,0,0,0,1.980065454515456e-07,6.245004513516506e-17

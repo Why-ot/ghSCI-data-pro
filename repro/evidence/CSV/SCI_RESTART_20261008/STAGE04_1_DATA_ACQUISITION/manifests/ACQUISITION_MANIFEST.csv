@@ -1,0 +1,9 @@
+dataset,asset,source_url,accessed_utc,bytes,sha256,license,local_path,status
+TransCG,transcg-info.zip,https://drive.google.com/file/d/18LkbelKNTURF-8f8N-ykzs79FJ013knH/view?usp=sharing,2026-10-09,156511163,168edc435e297da64677d75b225d50ccc08f0ee4521ee2f1bbbce46f535cfa22,CC-BY-NC-SA-4.0,raw/transcg/transcg-info.zip,ACQUIRED_ZIP_TEST_PASS
+TransCG,data-collector git checkout,https://github.com/Galaxies99/TransCG-data-collector,2026-10-09,,ece270e9324a7554f5fdc4905ea424839ff97a6f,MIT,sources/TransCG-data-collector,ACQUIRED_COMMIT_HASH
+Booster,README_Booster.rtf,https://amsacta.unibo.it/id/eprint/6876/2/README_Booster.rtf,2026-10-09,136951,86287f7e7716b31786b55c5b148cc98fe7fda7ada3e83a0b13bcb4f9244c17f3,CC-BY-NC-4.0,raw/booster/README_Booster.rtf,ACQUIRED
+Booster,CVPR2022 paper,https://openaccess.thecvf.com/content/CVPR2022/papers/Ramirez_Open_Challenges_in_Deep_Stereo_The_Booster_Dataset_CVPR_2022_paper.pdf,2026-10-09,20142021,54351aa5912ef0f645873263e536924e5d5f8b8ae030c5f7a00a4ec7147bc72d,OFFICIAL_OPEN_ACCESS,sources/booster_cvpr2022_paper.pdf,ACQUIRED
+Booster,CVPR2022 supplement,https://openaccess.thecvf.com/content/CVPR2022/supplemental/Ramirez_Open_Challenges_in_CVPR_2022_supplemental.pdf,2026-10-09,6459723,e208d318e3ab723f0b12b52801abf706000c893b44698c01fcb854f32e790295,OFFICIAL_OPEN_ACCESS,sources/booster_cvpr2022_supplement.pdf,ACQUIRED
+TransCG,transcg-data-2.zip,https://drive.google.com/file/d/10etZWFV5r_wJRCR3Q38eq9WaRY8qWBFp/view?usp=sharing,2026-10-09,13993876684,,CC-BY-NC-SA-4.0,raw/transcg/large_pending/transcg-data-2.zip,NOT_DOWNLOADED_USER_APPROVAL_REQUIRED
+Booster,labelled archive,https://amsacta.unibo.it/id/eprint/6876/1/booster_gt.zip,2026-10-09,19000000000,,CC-BY-NC-4.0,raw/booster/large_pending/booster_gt.zip,NOT_DOWNLOADED_USER_APPROVAL_REQUIRED_SIZE_AS_PUBLISHED
+
