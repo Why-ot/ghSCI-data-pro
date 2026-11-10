@@ -1,0 +1,83 @@
+{
+  "label": "REAL_SINGLE_FRAME_PREFLIGHT",
+  "p0_root": "/home/yuanyou/sci_camera_audit/SCI_STAGE09_P2A/stage09_p2a/REAL_P0_SCHEMA_ADAPTER_VIEW",
+  "exists": true,
+  "checks": {
+    "depth_bytes": {
+      "bytes": 814080,
+      "expected": 814080,
+      "ok": true,
+      "sha256": "bea57d9be738ce6124db3f2e1006f35b2ac6cd9e74a3563b97363a5803265d2a"
+    },
+    "color_bytes": {
+      "bytes": 921600,
+      "expected": 921600,
+      "ok": true,
+      "sha256": "e27746bce46bffd32fa9cce347701382335c5933bc7aa907826f5ce6f84d51ec"
+    },
+    "intrinsics": {
+      "ok": true,
+      "fx": 430.599609375,
+      "fy": 430.599609375,
+      "cx": 421.502075195,
+      "cy": 236.096893311,
+      "width": 848,
+      "height": 480,
+      "sha256": "48bc0d4e1b38735a03201cbf30bcf044dc0a2093c3a45d65e8e467ddf9dbb197"
+    },
+    "depth_scale": {
+      "value": 0.0010000000475,
+      "ok": true
+    },
+    "backprojection": {
+      "ok": true,
+      "finite_points": 264919,
+      "x_range": [
+        -7.8010120091886845,
+        8.392508729840866
+      ],
+      "y_range": [
+        -0.18203493592637446,
+        12.425849846269683
+      ],
+      "z_range": [
+        0.1730000082175,
+        24.66800117173
+      ]
+    },
+    "valid_ratio": {
+      "valid": 264919,
+      "total": 407040,
+      "ratio": 0.6508426690251572,
+      "denominator": "single frame, all pixels"
+    },
+    "metadata_fields": {
+      "present": [
+        "fx",
+        "fy",
+        "cx",
+        "cy"
+      ],
+      "missing": [],
+      "extra": [
+        "_adapter_provenance",
+        "camera",
+        "capture_date_local",
+        "color",
+        "depth",
+        "depth_scale",
+        "depth_to_color",
+        "height",
+        "notes",
+        "schema",
+        "status",
+        "timestamp",
+        "timezone",
+        "width"
+      ]
+    }
+  },
+  "problems": [],
+  "status": "PASS",
+  "note": "A single historical frame is not a capture session; this report may never be used as an S40 result."
+}

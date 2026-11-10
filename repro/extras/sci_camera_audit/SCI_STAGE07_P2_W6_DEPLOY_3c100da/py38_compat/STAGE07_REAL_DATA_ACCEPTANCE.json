@@ -1,0 +1,16 @@
+{
+  "stage": "SCI_STAGE07_REAL_D435_INTEGRATION",
+  "camera_serial": "317422072133",
+  "data_checks": "9/9 PASS",
+  "legacy_metadata_check": "FAIL",
+  "metadata_issue": "SCHEMA_MISMATCH",
+  "metadata_source": "/home/yuanyou/sci_camera_audit/SCI_STAGE07_P0_D435_PREFLIGHT/CAMERA_INTRINSICS.json",
+  "depth_raw_sha256": "bea57d9be738ce6124db3f2e1006f35b2ac6cd9e74a3563b97363a5803265d2a",
+  "source_metadata_sha256": "278ac0f9653881db7e6162b25e03907bc98060079c7b4e89785b2628f3803ec9",
+  "real_intrinsics_verified": true,
+  "real_depth_scale_verified": true,
+  "full_offline_check_all_ok": false,
+  "real_data_path": "PASS",
+  "s40_measurement": "NOT_AVAILABLE",
+  "independent_depth_accuracy": "NOT_EVALUATED"
+}

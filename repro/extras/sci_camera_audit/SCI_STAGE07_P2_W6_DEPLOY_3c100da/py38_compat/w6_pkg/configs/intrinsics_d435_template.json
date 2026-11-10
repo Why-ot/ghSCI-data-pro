@@ -1,0 +1,11 @@
+﻿{
+  "_status": "TEMPLATE — NOT A DEVICE QUERY RESULT",
+  "_source": "TBD_AT_CAPTURE: must be overwritten from rs2_intrinsics during the real session",
+  "_note": "The values below are the GraspNet-1Billion RealSense camK values, kept only to exercise the parser.",
+  "serial": "317422072133",
+  "stream": {"depth": "848x480 Z16 30fps", "color": "640x480 RGB8 30fps"},
+  "depth_scale_m_per_unit": 0.001,
+  "depth": {"fx": 927.17, "fy": 927.367, "cx": 651.315, "cy": 349.621, "width": 848, "height": 480},
+  "color": {"fx": null, "fy": null, "cx": null, "cy": null, "width": 640, "height": 480},
+  "extrinsics_depth_to_color": "TBD_AT_CAPTURE"
+}

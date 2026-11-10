@@ -1,0 +1,10 @@
+{
+  "source": "/home/yuanyou/sci_camera_audit/SCI_STAGE07_P0_D435_PREFLIGHT/CAMERA_INTRINSICS.json",
+  "source_sha256": "278ac0f9653881db7e6162b25e03907bc98060079c7b4e89785b2628f3803ec9",
+  "adapter": "py38_compat/REAL_P0_DEPTH_INTRINSICS.json",
+  "adapter_sha256": "78bb569539158164c6dd6adf480450fc3061b4970e3c405c96823ccc407e86cf",
+  "camera_serial": "317422072133",
+  "depth_scale_m_per_unit": 0.0010000000475,
+  "mapping": "depth.ppx->cx, depth.ppy->cy",
+  "independent_ground_truth": false
+}

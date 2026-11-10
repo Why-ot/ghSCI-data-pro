@@ -1,0 +1,7 @@
+equipment_id,equipment_type,manufacturer_model,serial_number,resolution_or_specification,calibration_status,intended_role,verification_status,notes
+CAM_RIGHT_D435,RGB-D camera,Intel RealSense D435,317422072133,Requested depth profile 848x480 Z16 30FPS,NOT_APPLICABLE,Depth device under test,PRESENT_ENUMERATED_STEP0,Firmware observed in STEP0 was 5.17.0.10; no stream started
+CALIPER_01,Caliper,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Independent physical step measurement,UNVERIFIED,Display resolution must not be treated as accuracy or U95
+RULER_01,Ruler,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Coarse setup distance and alignment support,UNVERIFIED,Metrological role requires review
+TARGET_S20,Step target,S20,UNKNOWN,Nominal label only,UNKNOWN,Physical reference target,UNVERIFIED,Actual dimensions must be measured and must not be inferred from target ID
+TARGET_S40,Step target,S40,UNKNOWN,Nominal label only,UNKNOWN,Physical reference target,UNVERIFIED,Actual dimensions must be measured and must not be inferred from target ID
+TARGET_S60,Step target,S60,UNKNOWN,Nominal label only,UNKNOWN,Physical reference target,UNVERIFIED,Actual dimensions must be measured and must not be inferred from target ID

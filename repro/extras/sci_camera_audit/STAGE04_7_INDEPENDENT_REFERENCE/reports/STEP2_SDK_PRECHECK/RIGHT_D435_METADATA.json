@@ -1,0 +1,111 @@
+{
+  "audit_time": "2026-10-26T11:53:34+08:00",
+  "protocol_status": "DRAFT_RECONSTRUCTED_PENDING_USER_SIGNOFF",
+  "protocol_sha256": "2c154df8309ec42db314b9aa3a0476d5e1cdf346877ec91961c4df38ae2dfd24",
+  "protocol_scientific_review": "ISSUES_FOUND",
+  "device": {
+    "role": "RIGHT_D435",
+    "name": "Intel RealSense D435",
+    "serial": "317422072133",
+    "detected": true,
+    "firmware_version": "5.17.0.10",
+    "sdk_recommended_firmware_version": "5.16.0.1",
+    "product_id": "0B07",
+    "product_line": "D400",
+    "usb_type_descriptor": "3.2",
+    "usb_topology_speed_mbps": 5000,
+    "physical_port": "/sys/devices/platform/3610000.xhci/usb2/2-1/2-1.1/2-1.1.1/2-1.1.1:1.0/video4linux/video0"
+  },
+  "other_enumerated_identity": {
+    "name": "Intel RealSense D400",
+    "serial": "ffffffffffff",
+    "firmware_version": "5.13.0.55",
+    "selected_for_streaming": false,
+    "reset_or_modified": false
+  },
+  "historical_left_serial": {
+    "serial": "342222072464",
+    "detected": false
+  },
+  "sdk": {
+    "rs_enumerate_devices_version": "2.55.1.0",
+    "loaded_librealsense": "/usr/local/lib/librealsense2.so.2.55",
+    "resolved_librealsense": "/usr/local/lib/librealsense2.so.2.55.1",
+    "pyrealsense2": "NOT_FOUND",
+    "ros_debian_librealsense_version": "2.50.0"
+  },
+  "requested_profiles": {
+    "depth": {
+      "width": 848,
+      "height": 480,
+      "format": "Z16",
+      "fps": 30,
+      "supported": true
+    },
+    "color": {
+      "width": 640,
+      "height": 480,
+      "format": "RGB8",
+      "fps": 30,
+      "supported": true
+    }
+  },
+  "actual_profiles": {
+    "depth": "NOT_STARTED",
+    "color": "NOT_STARTED"
+  },
+  "depth_scale": {
+    "value_m_per_unit": null,
+    "status": "UNVERIFIED",
+    "advertised_default_m_per_unit": 0.001,
+    "note": "Current-value query did not succeed; advertised default is not reported as actual."
+  },
+  "depth_intrinsics_848x480": {
+    "status": "PASS",
+    "width": 848,
+    "height": 480,
+    "fx": 430.599609375,
+    "fy": 430.599609375,
+    "ppx": 421.502075195312,
+    "ppy": 236.096893310547,
+    "distortion": "Brown Conrady",
+    "coefficients": [0, 0, 0, 0, 0]
+  },
+  "color_intrinsics_640x480": {
+    "status": "PASS",
+    "width": 640,
+    "height": 480,
+    "fx": 607.983520507812,
+    "fy": 607.655639648438,
+    "ppx": 319.550628662109,
+    "ppy": 254.650497436523,
+    "distortion": "Inverse Brown Conrady",
+    "coefficients": [0, 0, 0, 0, 0]
+  },
+  "depth_to_color_extrinsics": {
+    "status": "PASS",
+    "rotation": [
+      [0.999949, 0.00891122, -0.00475572],
+      [-0.00892269, 0.999957, -0.00239545],
+      [0.00473417, 0.00243776, 0.999986]
+    ],
+    "translation_m": [0.01489641610533, 0.00015716343477834, 0.0000737125301384367]
+  },
+  "capture": {
+    "status": "NOT_STARTED",
+    "failed_gate": "PROTOCOL_REVIEW_ISSUES_AND_STATIC_SAFETY_UNVERIFIED",
+    "diagnostic_frames": 0,
+    "formal_experiment_frames": 0,
+    "alignment": false,
+    "spatial_filter": false,
+    "temporal_filter": false,
+    "hole_filling": false,
+    "depth_completion": false
+  },
+  "resource_release": {
+    "status": "YES",
+    "note": "No pipeline was started; enumeration processes exited and no video-device consumer was observed."
+  },
+  "robot_movement": false,
+  "stage05_started": false
+}

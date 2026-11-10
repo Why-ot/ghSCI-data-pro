@@ -1,0 +1,116 @@
+{
+  "schema": "SCI_STAGE07_P0_CAMERA_CALIBRATION_v1",
+  "status": "VERIFIED_FROM_ACTIVE_TARGET_DEVICE",
+  "capture_date_local": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "camera": {
+    "model": "Intel RealSense D435",
+    "serial": "317422072133",
+    "firmware": "5.17.0.10"
+  },
+  "depth_scale": 0.0010000000475,
+  "depth": {
+    "width": 848,
+    "height": 480,
+    "format": "Z16",
+    "raw_dtype": "uint16_le",
+    "fps": 30,
+    "fx": 430.599609375,
+    "fy": 430.599609375,
+    "ppx": 421.502075195,
+    "ppy": 236.096893311,
+    "distortion": "Brown Conrady",
+    "coefficients": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "color": {
+    "width": 640,
+    "height": 480,
+    "format": "RGB8",
+    "raw_dtype": "uint8",
+    "channel_order": "RGB",
+    "fps": 30,
+    "fx": 607.983520508,
+    "fy": 607.655639648,
+    "ppx": 319.550628662,
+    "ppy": 254.650497437,
+    "distortion": "Inverse Brown Conrady",
+    "coefficients": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "depth_to_color": {
+    "librealsense_rotation_raw_column_major": [
+      0.999948978424,
+      -0.00892268773168,
+      0.00473416596651,
+      0.00891122035682,
+      0.999957323074,
+      0.00243775942363,
+      -0.0047557153739,
+      -0.00239544804208,
+      0.999985814095
+    ],
+    "rotation_matrix_row_major": [
+      [
+        0.999948978424,
+        0.00891122035682,
+        -0.0047557153739
+      ],
+      [
+        -0.00892268773168,
+        0.999957323074,
+        -0.00239544804208
+      ],
+      [
+        0.00473416596651,
+        0.00243775942363,
+        0.999985814095
+      ]
+    ],
+    "translation_metres": [
+      0.0148964161053,
+      0.000157163434778,
+      7.37125301384e-05
+    ]
+  },
+  "timestamp": {
+    "depth_domain": "Global Time",
+    "color_domain": "Global Time",
+    "missing_depth_transitions": 0,
+    "missing_color_transitions": 0
+  },
+  "notes": [
+    "Parameters were read from serial 317422072133 during a passive ordinary-scene smoke test.",
+    "No alignment, filtering, depth completion, camera option write, firmware update, or hardware reset was used.",
+    "These parameters do not establish S40 geometry or depth accuracy."
+  ],
+  "fx": 430.599609375,
+  "fy": 430.599609375,
+  "cx": 421.502075195,
+  "cy": 236.096893311,
+  "width": 848,
+  "height": 480,
+  "_adapter_provenance": {
+    "label": "REAL_P0_SCHEMA_ADAPTER",
+    "original_metadata": "/home/yuanyou/sci_camera_audit/SCI_STAGE07_P0_D435_PREFLIGHT/CAMERA_INTRINSICS.json",
+    "original_sha256": "278ac0f9653881db7e6162b25e03907bc98060079c7b4e89785b2628f3803ec9",
+    "mapping": {
+      "fx": "depth.fx",
+      "fy": "depth.fy",
+      "cx": "depth.ppx",
+      "cy": "depth.ppy",
+      "depth_scale": "depth_scale.metres_per_raw_unit"
+    },
+    "note": "Historical metadata schema adapter, not new camera data"
+  }
+}

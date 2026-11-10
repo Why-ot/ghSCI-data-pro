@@ -1,0 +1,162 @@
+{
+  "stage": "SCI_STAGE04_7_STEP2B_FIRST_RAW_RGBD_STREAM",
+  "capture_authorization": {
+    "physical_safety_confirmed_by_user": true,
+    "confirmed_items": [
+      "robot_stably parked",
+      "right-wrist D435 securely mounted",
+      "reliable arm holding measures",
+      "USB and power connections safe",
+      "experiment area clear of collision risk",
+      "no robot movement required",
+      "personnel clear of pinch and collision zones"
+    ],
+    "scope": "one Stage04.7 Step2B 20-second raw RGB-D stream"
+  },
+  "execution": {
+    "precheck_time": "2026-10-26T13:37:24+08:00",
+    "postcheck_time": "2026-10-26T13:38:17+08:00",
+    "status": "PASS",
+    "warmup_seconds_requested": 2,
+    "warmup_framesets": 49,
+    "observation_seconds_requested": 20,
+    "observation_seconds_actual": 20.016360726,
+    "valid_framesets": 600,
+    "formal_experiment_frames": 0,
+    "full_image_sequence_saved": false
+  },
+  "camera": {
+    "role": "RIGHT_D435",
+    "model": "Intel RealSense D435",
+    "serial": "317422072133",
+    "firmware_version": "5.17.0.10"
+  },
+  "sdk": {
+    "native_librealsense_version": "2.55.1",
+    "loaded_dynamic_library": "/usr/local/lib/librealsense2.so.2.55",
+    "binary_sha256": "e2e79e4034764cbe2be6b83a8b1b0051d5c8231d1b2e67315ecd8fa0d2033be0"
+  },
+  "actual_streams": {
+    "depth": {
+      "width": 848,
+      "height": 480,
+      "format": "Z16",
+      "raw_dtype": "uint16_t",
+      "fps_requested": 30,
+      "fps_actual": 29.9981871514,
+      "frame_count": 600
+    },
+    "color": {
+      "width": 640,
+      "height": 480,
+      "format": "RGB8",
+      "fps_requested": 30,
+      "fps_actual": 29.9981864179,
+      "frame_count": 600
+    }
+  },
+  "depth_scale": {
+    "metres_per_raw_unit": 0.001,
+    "millimetres_per_raw_unit": 1.0,
+    "source": "active RIGHT_D435 depth sensor during authorized stream"
+  },
+  "depth_intrinsics": {
+    "width": 848,
+    "height": 480,
+    "fx": 430.6,
+    "fy": 430.6,
+    "ppx": 421.502,
+    "ppy": 236.097,
+    "distortion": "Brown Conrady",
+    "coefficients": [0, 0, 0, 0, 0]
+  },
+  "color_intrinsics": {
+    "width": 640,
+    "height": 480,
+    "fx": 607.984,
+    "fy": 607.656,
+    "ppx": 319.551,
+    "ppy": 254.65,
+    "distortion": "Inverse Brown Conrady",
+    "coefficients": [0, 0, 0, 0, 0]
+  },
+  "depth_to_color_extrinsics": {
+    "librealsense_rotation_raw_column_major": [
+      0.999949,
+      -0.00892269,
+      0.00473417,
+      0.00891122,
+      0.999957,
+      0.00243776,
+      -0.00475572,
+      -0.00239545,
+      0.999986
+    ],
+    "rotation_matrix_row_major": [
+      [0.999949, 0.00891122, -0.00475572],
+      [-0.00892269, 0.999957, -0.00239545],
+      [0.00473417, 0.00243776, 0.999986]
+    ],
+    "translation_metres": [0.0148964, 0.000157163, 0.0000737125]
+  },
+  "timing": {
+    "depth": {
+      "timestamp_domain": "Global Time",
+      "mixed_timestamp_domains": false,
+      "missing_frame_numbers": 0,
+      "interval_min_ms": 32.1242675781,
+      "interval_median_ms": 33.3571777344,
+      "interval_p95_ms": 33.4256103516,
+      "interval_max_ms": 33.4465332031
+    },
+    "color": {
+      "timestamp_domain": "Global Time",
+      "mixed_timestamp_domains": false,
+      "missing_frame_numbers": 0,
+      "interval_min_ms": 32.125,
+      "interval_median_ms": 33.3571777344,
+      "interval_p95_ms": 33.425390625,
+      "interval_max_ms": 33.4467773438
+    }
+  },
+  "depth_quality": {
+    "total_samples": 244224000,
+    "zero_count": 63292279,
+    "zero_fraction": 0.259156671744,
+    "positive_count": 180931721,
+    "positive_valid_fraction": 0.740843328256,
+    "positive_raw_quantiles": {
+      "minimum": 173,
+      "median": 396,
+      "p95": 1136,
+      "p99": 2138,
+      "maximum": 65535
+    },
+    "positive_depth_millimetres": {
+      "minimum": 173.000008217,
+      "median": 396.000018809,
+      "p95": 1136.00005396,
+      "p99": 2138.00010155,
+      "maximum": 65535.0031127
+    },
+    "saturation_raw_value": 65535,
+    "saturation_count": 14617,
+    "saturation_fraction": 0.000059850793
+  },
+  "processing": {
+    "alignment": false,
+    "spatial_filter": false,
+    "temporal_filter": false,
+    "hole_filling": false,
+    "depth_completion": false,
+    "camera_option_writes": false
+  },
+  "resource_release": {
+    "program_reported_release": true,
+    "post_capture_video_node_users": "NONE",
+    "status": "YES"
+  },
+  "scientific_interpretation": "Observed validity and depth distribution metrics do not establish geometric error or valid-but-wrong ground truth.",
+  "robot_motion": false,
+  "stage05_started": false
+}

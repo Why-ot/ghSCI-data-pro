@@ -1,0 +1,111 @@
+{
+  "label": "REAL_D435_STAGE07P0",
+  "depth_file": "/home/yuanyou/sci_camera_audit/SCI_STAGE07_P0_D435_PREFLIGHT/smoke_data/depth_000000.z16.raw",
+  "checks": {
+    "01_file_read": {
+      "ok": true,
+      "bytes": 814080,
+      "sha256": "bea57d9be738ce6124db3f2e1006f35b2ac6cd9e74a3563b97363a5803265d2a"
+    },
+    "02_dtype": {
+      "ok": true,
+      "dtype": "uint16",
+      "min": 0,
+      "max": 24668
+    },
+    "03_resolution": {
+      "ok": true,
+      "shape": [
+        480,
+        848
+      ],
+      "expected": [
+        480,
+        848
+      ]
+    },
+    "04_intrinsics": {
+      "ok": true,
+      "fx": 430.599609375,
+      "fy": 430.599609375,
+      "cx": 421.502075195,
+      "cy": 236.096893311,
+      "source": "/home/yuanyou/sci_camera_audit/SCI_STAGE07_P0_D435_PREFLIGHT/intrinsics.json"
+    },
+    "05_depth_scale": {
+      "ok": true,
+      "depth_scale": 0.0010000000475,
+      "source": "/home/yuanyou/sci_camera_audit/SCI_STAGE07_P0_D435_PREFLIGHT/depth_scale.json"
+    },
+    "06_to_metres": {
+      "ok": true,
+      "z_min_m": 0.1730000082175,
+      "z_max_m": 24.66800117173
+    },
+    "07_valid_ratio": {
+      "ok": true,
+      "valid": 264919,
+      "total": 407040,
+      "ratio": 0.6508426690251572,
+      "denominator": "single frame, all pixels"
+    },
+    "08_backproject": {
+      "ok": true,
+      "finite_points": 264919,
+      "max_abs_xy_m": 12.425849846269683
+    },
+    "09_frame_sanity": {
+      "ok": true,
+      "z_all_positive": true,
+      "x_range": [
+        -7.8010120091886845,
+        8.392508729840866
+      ],
+      "y_range": [
+        -0.18203493592637446,
+        12.425849846269683
+      ],
+      "note": "camera optical frame, x right, y down, z forward"
+    },
+    "10_metadata": {
+      "ok": false,
+      "present": {
+        "intrinsics.json": false,
+        "device_config.json": false,
+        "depth_scale.json": false,
+        "frame_timestamps.csv": false
+      },
+      "dir": "/home/yuanyou/sci_camera_audit/SCI_STAGE07_P0_D435_PREFLIGHT"
+    }
+  },
+  "all_ok": false,
+  "s40_eligibility": {
+    "target_built": false,
+    "parallelism_deg": null,
+    "parallelism_tolerance_deg": 0.2,
+    "reference_complete": false,
+    "reference_u95_mm": "UNKNOWN",
+    "roi_frozen": false,
+    "roi_sha256": null,
+    "intrinsics_from_device": false,
+    "depth_scale_from_device": false,
+    "min_valid_ratio": 0.9,
+    "front_valid_ratio": null,
+    "back_valid_ratio": null,
+    "plane_rms_mm": null,
+    "max_rms_mm": 0.2,
+    "allowed": false,
+    "blocking_reasons": [
+      "S40 target not built / not verified",
+      "parallelism not measured",
+      "reference worksheet incomplete (needs 5 placements x 3 readings)",
+      "reference U95 unknown",
+      "ROI not frozen (no sha256 recorded)",
+      "intrinsics not read from the device",
+      "depth_scale not read from the device",
+      "front ROI validity not measured",
+      "back ROI validity not measured",
+      "plane fit RMS not measured"
+    ]
+  }
+}

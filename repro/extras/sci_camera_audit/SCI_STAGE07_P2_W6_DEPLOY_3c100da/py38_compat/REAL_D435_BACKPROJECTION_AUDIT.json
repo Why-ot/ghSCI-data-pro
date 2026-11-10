@@ -1,0 +1,38 @@
+{
+  "tag": "REAL_D435_STAGE07P0",
+  "camera_serial": "317422072133",
+  "depth_frame_sha256": "bea57d9be738ce6124db3f2e1006f35b2ac6cd9e74a3563b97363a5803265d2a",
+  "image_width": 848,
+  "image_height": 480,
+  "valid_points": 264919,
+  "total_pixels": 407040,
+  "valid_ratio": 0.6508426690251572,
+  "depth_scale_m_per_unit": 0.0010000000475,
+  "depth_percentiles_m": {
+    "0": 0.1730000082175,
+    "1": 0.1790000085025,
+    "5": 0.2150000102125,
+    "50": 0.34400001634,
+    "95": 0.438000020805,
+    "99": 0.4730000224675,
+    "100": 24.66800117173
+  },
+  "xyz_bounds_m": {
+    "x": [
+      -7.8010120091886845,
+      8.392508729840864
+    ],
+    "y": [
+      -0.18203493592637449,
+      12.425849846269681
+    ],
+    "z": [
+      0.1730000082175,
+      24.66800117173
+    ]
+  },
+  "reprojection_max_pixel_error": 5.684341886080802e-14,
+  "backprojection_path_check": "PASS",
+  "independent_geometry_accuracy": "NOT_EVALUATED",
+  "s40_reference_measurement": "NOT_AVAILABLE"
+}

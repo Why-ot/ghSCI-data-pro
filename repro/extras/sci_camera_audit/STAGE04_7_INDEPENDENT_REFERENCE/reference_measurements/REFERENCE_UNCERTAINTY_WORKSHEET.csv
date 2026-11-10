@@ -1,0 +1,10 @@
+component_id,uncertainty_component,uncertainty_class,evidence_basis,value,unit,distribution_or_model,standard_uncertainty_mm,status,source_or_method,notes
+UR-01,Caliper accuracy,u_reference,UNKNOWN,,,,,UNKNOWN,,Use manufacturer specification or calibration evidence; display resolution is not accuracy
+UR-02,Repositioned measurement repeatability,u_reference,UNKNOWN,,,,,UNKNOWN,,Estimate only from genuine repeated measurements using the reviewed method
+UR-03,Reference-plane flatness,u_reference,UNKNOWN,,,,,UNKNOWN,,Record measured evidence or a justified estimate; do not infer from appearance
+UR-04,Reference-plane parallelism,u_reference,UNKNOWN,,,,,UNKNOWN,,Include spatial variation and the method used to assess parallelism
+UR-05,Fixture deformation,u_reference,UNKNOWN,,,,,UNKNOWN,,Consider deformation under mounting and caliper contact force
+UR-06,Measurement alignment,u_reference,UNKNOWN,,,,,UNKNOWN,,Account for cosine and contact-geometry effects relative to the plane normal
+UR-07,Measurement temperature and conditions,u_reference,UNKNOWN,,,,,UNKNOWN,,Record temperature and relevant environmental conditions at measurement time
+UR-08,Instrument display resolution,u_reference,UNKNOWN,,,,,UNKNOWN,,Treat separately from accuracy and calibration uncertainty
+UR-09,Operator and contact-force effects,u_reference,UNKNOWN,,,,,UNKNOWN,,Record method and any supported estimate

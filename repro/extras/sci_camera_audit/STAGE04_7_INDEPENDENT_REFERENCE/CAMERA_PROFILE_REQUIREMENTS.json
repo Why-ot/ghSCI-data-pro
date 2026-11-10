@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "protocol_status": "DRAFT_RECONSTRUCTED_PENDING_USER_SIGNOFF",
+  "camera": {
+    "role": "RIGHT_D435",
+    "model": "Intel RealSense D435",
+    "serial": "317422072133"
+  },
+  "requested_depth_profile": {
+    "width": 848,
+    "height": 480,
+    "format": "Z16",
+    "fps": 30
+  },
+  "depth_postprocessing": "OFF",
+  "required_pre_capture_checks": {
+    "exact_serial_match": true,
+    "exact_profile_match": true,
+    "depth_scale_recorded": true,
+    "coordinate_system_documented": true,
+    "raw_depth_positive_value_required": true,
+    "ros_required": false
+  },
+  "reference_u95": "UNVERIFIED",
+  "valid_but_wrong_gt": "UNVERIFIED",
+  "capture_authorized_by_this_file": false,
+  "notes": [
+    "Z16 is camera optical-axis depth after application of the verified device depth scale.",
+    "No filter or postprocessing may be enabled for the raw-depth primary analysis.",
+    "This file records requirements only and does not claim that capture has occurred."
+  ]
+}
