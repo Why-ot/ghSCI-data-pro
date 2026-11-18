@@ -22,9 +22,10 @@ which is the opposite of what this repository is for.
 The readings behind the reference values in use were taken on paper and were never
 digitised, so no file in this repository can reproduce them. What is available instead:
 
-* the five reference values themselves, in Table 7 of the paper and as `REF` in
+* the five reference values themselves, in Table 3 of the paper and as `REF` in
   `../../step_height/measure_eh.py`;
-* the repeatability that bounds them, stated in Section 6.3 of the paper and derived
+* a digitisation template and the values in use, in `../../metrology/`;
+* the repeatability that bounds them, stated in Section 5.3 of the paper and derived
   from four readings per quantity;
 * the per-unit step measurements, in `../derived/measured_step_error.csv` and
   `../../step_height/ensemble_per_unit.csv`.

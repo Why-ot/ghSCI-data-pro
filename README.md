@@ -46,11 +46,12 @@ a28b2ef2b9d8195e4b69b30fae5da45a4ca12d2c52cb466c74a020ccd2889f3e  color_all.tar
 
 | folder | contents |
 |---|---|
-| `repro/evidence/` | the frozen per-scene and per-candidate tables of Section 5 |
+| `repro/evidence/` | the frozen per-scene and per-candidate tables of Section 6 |
 | `repro/analysis/` | the scripts named in Appendix A.3, and the CSV they regenerate |
-| `repro/derived/` | per-unit tables behind Tables 6, 10, 11 and 12 |
+| `repro/derived/` | per-unit tables behind Tables 3 and 12, and the ROI definitions behind Table 13 |
 | `repro/capture/` | the scripts that drove the camera and the arm |
 | `repro/templates/` | the caliper sheet templates of Section 4.4 |
+| `repro/metrology/` | the five reference values in use and a template for digitising the paper caliper sheet |
 
 ```bash
 python repro/analysis/01_selective_risk_split.py --root repro/evidence/CSV/SCI_RESTART_20261008
