@@ -16,9 +16,18 @@ degrees of freedom.
 ## Why these values differ from an earlier calculation
 
 The step heights in `table12_inputs.csv` come from the single frozen realisation in
-`_join/joined.csv`, not from the ten-draw ensemble used for Tables 3-6. The two
-differ by a few hundredths of a millimetre per unit, which moves the pooled
-coefficient between about -0.38 and -0.46:
+`_join/joined.csv`, not from the ten-draw ensemble used for Tables 3-6. The difference
+between the two estimators is not uniform across units. Over the same 90 units:
+
+| statistic | value |
+|---|---|
+| mean absolute difference | 0.298 mm |
+| median absolute difference | 0.105 mm |
+| maximum absolute difference | 3.442 mm |
+| mean absolute difference, 448 mm group only | 1.446 mm |
+
+Most units agree closely; a few at the largest standoff differ by millimetres, and
+those few carry enough leverage to move the pooled coefficient:
 
 | estimator | pooled | within target |
 |---|---|---|

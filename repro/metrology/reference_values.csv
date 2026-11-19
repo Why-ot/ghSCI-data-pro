@@ -1,7 +1,7 @@
-target,orientation,reference_step_mm,sd_of_four_readings_mm,source,status
-S00,flat,6.05,0.02,transcribed paper caliper sheet,used in Table 3
-S20,0deg,19.96,0.02,transcribed paper caliper sheet,used in Table 3
-S40A,0deg,39.97,0.02,transcribed paper caliper sheet,used in Table 3
-S40A,180deg,39.97,0.02,transcribed paper caliper sheet,used in Table 3
-S40B,0deg,39.98,0.02,transcribed paper caliper sheet,used in Table 3
-S60,0deg,59.97,0.02,transcribed paper caliper sheet,used in Table 3
+target,orientation,reference_step_mm,sd_of_four_paired_readings_mm,source,status,recomputable_here
+S00,flat,6.05,,reported plate thickness; single value in the retained record,used in Table 3,not recomputable
+S20,0deg,19.96,0.028,reproduced from reference_readings.csv,used in Table 3,recomputable
+S40A,0deg,39.97,,mean of four readings per orientation; individuals not retained,used in Table 3,"reference value recomputable, spread not"
+S40A,180deg,39.97,,mean of four readings per orientation; individuals not retained,used in Table 3,"reference value recomputable, spread not"
+S40B,0deg,39.98,0.010,reproduced from reference_readings.csv,used in Table 3,recomputable
+S60,0deg,59.97,0.013,reproduced from reference_readings.csv,used in Table 3,recomputable

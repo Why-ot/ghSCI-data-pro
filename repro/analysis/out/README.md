@@ -20,20 +20,23 @@ caliper reference the paper uses:
 Leaving them here invited a reader to recompute a table and get a different answer,
 which is the opposite of what this repository is for.
 
-The readings behind the reference values in use were taken on paper and were never
-digitised, so no file in this repository can reproduce them. What is available instead:
+The readings behind the reference values in use were taken on paper and are now
+transcribed in `../../metrology/reference_readings.csv`, one row per target,
+orientation, measurand and position; `../../metrology/derive_reference.py` reproduces
+the five values from them. What that file does and does not carry:
 
-* the five reference values themselves, in Table 3 of the paper and as `REF` in
-  `../../step_height/measure_eh.py`;
-* a digitisation template and the values in use, in `../../metrology/`;
-* the repeatability that bounds them, stated in Section 5.3 of the paper and derived
-  from four readings per quantity;
-* the per-unit step measurements, in `../derived/measured_step_error.csv` and
-  `../../step_height/ensemble_per_unit.csv`.
+* S20, S40-B and S60 have all eight individual readings each, so both their means and
+  their standard deviations reproduce (0.028, 0.010 and 0.013 mm respectively);
+* S40-A is recorded as the mean of each orientation's four readings, so its reference
+  value reproduces but its spread does not and is carried from the paper sheet;
+* S00 is a single reported plate thickness.
 
-`08_reference_check.py` is left in place. Pointed at a complete sheet it will reproduce
-the reduction, and that remains the correct way to check the reference if the paper
-sheet is ever transcribed.
+The five values themselves are also in Table 3 of the paper and as `REF` in
+`../../step_height/measure_eh.py`. An empty digitisation template remains in
+`../../metrology/` for anyone who wants to re-enter the sheet by hand.
+
+`08_reference_check.py` is left in place. Pointed at a complete sheet it reproduces the
+reduction, and remains the correct way to check a future measurement session.
 
 The two files remain in the git history at commit `e5ba35f`. They are not reachable
 from the current tree, but they are not erased either; anyone reading the history will
