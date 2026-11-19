@@ -5,8 +5,9 @@ Two files that used to sit in this directory have been removed:
 * `reference_steps.csv`
 * `reference_repeatability.csv`
 
-They were written by `08_reference_check.py` from a partially transcribed caliper
-sheet, and their values do not correspond to the caliper reference the paper uses:
+They were written by `08_reference_check.py` from the 21 mm-base trial batch, before
+the staircase targets were measured, and their values do not correspond to the
+caliper reference the paper uses:
 
 | quantity | removed file | value used in the paper |
 |---|---|---|

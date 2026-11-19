@@ -12,11 +12,23 @@ thickness). The standard deviation over the four readings is 0.02 mm.
 
 ## Provenance
 
-The readings were recorded on paper and transcribed. The paper sheets are
-retained by the authors; the machine-readable transcription is
-`reference_readings_template.csv`. The original sheets are available from the
-authors on request. If a scan or a full transcription becomes available, deposit
-it in this folder; do not reconstruct readings from the summary values.
+The readings were recorded on paper and are transcribed in
+`reference_readings.csv`, one row per target, orientation, measurand and position.
+`derive_reference.py` reproduces the five values in `reference_values.csv` from
+them; run it in this folder.
+
+Granularity differs between targets, and the file says so in its `reading_type`
+column:
+
+* S20, S40-B and S60 - eight individual readings each (four of the base
+  thickness, four of the total height).
+* S40-A - the mean of each orientation's four readings, not the four readings.
+  The reference step is the mean of the two orientation means, so the coefficient
+  reproduces; the 0.02 mm standard deviation for S40-A is **not** recomputable
+  from this file and is carried over from the paper sheet.
+* S00 - a single reported plate thickness.
+
+Do not reconstruct a missing reading from a mean.
 
 An earlier partially digitised reduction (`reference_steps.csv` and
 `reference_repeatability.csv`, from the 21 mm-base trial batch) is superseded
@@ -33,12 +45,13 @@ infer a missing reading from the mean.
 
 ## Status
 
-- [x] Five reference values transcribed (Table 3)
-- [ ] Raw paper sheet scanned or fully transcribed
+- [x] Five reference values reproduced from the deposited readings
+- [x] Readings for S20, S40-B, S60 and S00 transcribed individually
+- [x] S40-A recorded as four-reading means per orientation
+- [ ] S40-A individual readings (not in the retained record)
 - [ ] Instrument model / calibration status recorded
-- [ ] Template filled and checked against the paper sheet
+- [ ] Paper sheet scanned
 
-**Deposit mode (2026-11-18):** summary values + blank template. The raw paper
-sheet is not digitised; the manuscript therefore states that the original sheets
-are available from the authors on request. If a scan or full transcription
-becomes available, replace the blank template with it and update this status.
+**Deposit mode (2026-11-19):** readings deposited and reduced by
+`derive_reference.py`. S40-A is at orientation-mean granularity, as stated in the
+file and in Supplementary Section S5.

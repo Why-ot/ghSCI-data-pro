@@ -1,0 +1,30 @@
+target,orientation,measurand,group,position,reading_index,reading_mm,reading_type,instrument,notes
+S00,flat,plate_thickness,,P1,1,6.05,reported_value,digital caliper 0-150 mm 0.01 mm,"plate thickness of the flat control; the record gives this as a single value"
+S20,0deg,base_thickness,,P1,1,6.04,reading,digital caliper 0-150 mm 0.01 mm,
+S20,0deg,base_thickness,,P2,2,6.02,reading,digital caliper 0-150 mm 0.01 mm,
+S20,0deg,base_thickness,,P3,3,6.03,reading,digital caliper 0-150 mm 0.01 mm,
+S20,0deg,base_thickness,,P4,4,6.05,reading,digital caliper 0-150 mm 0.01 mm,
+S20,0deg,total_height,,P1,1,26.02,reading,digital caliper 0-150 mm 0.01 mm,
+S20,0deg,total_height,,P2,2,26.01,reading,digital caliper 0-150 mm 0.01 mm,
+S20,0deg,total_height,,P3,3,25.98,reading,digital caliper 0-150 mm 0.01 mm,
+S20,0deg,total_height,,P4,4,25.98,reading,digital caliper 0-150 mm 0.01 mm,
+S40A,0deg,base_thickness,1,,1,6.028,group_mean,digital caliper 0-150 mm 0.01 mm,"mean of four readings; the individual readings are not in the retained record"
+S40A,0deg,total_height,1,,1,46.005,group_mean,digital caliper 0-150 mm 0.01 mm,"mean of four readings"
+S40A,180deg,base_thickness,2,,1,6.053,group_mean,digital caliper 0-150 mm 0.01 mm,"mean of four readings"
+S40A,180deg,total_height,2,,1,46.013,group_mean,digital caliper 0-150 mm 0.01 mm,"mean of four readings"
+S40B,0deg,base_thickness,,P1,1,6.04,reading,digital caliper 0-150 mm 0.01 mm,
+S40B,0deg,base_thickness,,P2,2,6.03,reading,digital caliper 0-150 mm 0.01 mm,
+S40B,0deg,base_thickness,,P3,3,6.05,reading,digital caliper 0-150 mm 0.01 mm,
+S40B,0deg,base_thickness,,P4,4,6.05,reading,digital caliper 0-150 mm 0.01 mm,
+S40B,0deg,total_height,,P1,1,46.02,reading,digital caliper 0-150 mm 0.01 mm,
+S40B,0deg,total_height,,P2,2,46.00,reading,digital caliper 0-150 mm 0.01 mm,
+S40B,0deg,total_height,,P3,3,46.04,reading,digital caliper 0-150 mm 0.01 mm,
+S40B,0deg,total_height,,P4,4,46.04,reading,digital caliper 0-150 mm 0.01 mm,
+S60,0deg,base_thickness,,P1,1,6.04,reading,digital caliper 0-150 mm 0.01 mm,
+S60,0deg,base_thickness,,P2,2,6.05,reading,digital caliper 0-150 mm 0.01 mm,
+S60,0deg,base_thickness,,P3,3,6.05,reading,digital caliper 0-150 mm 0.01 mm,
+S60,0deg,base_thickness,,P4,4,6.01,reading,digital caliper 0-150 mm 0.01 mm,
+S60,0deg,total_height,,P1,1,66.03,reading,digital caliper 0-150 mm 0.01 mm,
+S60,0deg,total_height,,P2,2,66.01,reading,digital caliper 0-150 mm 0.01 mm,
+S60,0deg,total_height,,P3,3,66.02,reading,digital caliper 0-150 mm 0.01 mm,
+S60,0deg,total_height,,P4,4,65.98,reading,digital caliper 0-150 mm 0.01 mm,
