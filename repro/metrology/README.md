@@ -1,7 +1,7 @@
 # Reference metrology record
 
 This folder documents the caliper reference used in the manuscript
-*Reference-Graded Characterisation of an Active-Stereo Depth Sensor*.
+*Error Endpoints Decide Whether Depth-Reliability Scores Work: Evidence from a Reference-Graded Active-Stereo Sensor*.
 
 ## Values used in the paper
 
