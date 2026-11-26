@@ -38,3 +38,15 @@ Both are negative pooled and both collapse to near zero once each target's mean 
 removed, so the qualitative reading does not depend on which estimator is used.
 Table 12 uses the frozen realisation, and that file is deposited here so the
 coefficient does not depend on which table a reader picks up.
+## Permutation p values
+
+`permutation_pvalues.py` computes the p column of the graspness table the way the
+manuscript caption describes: one variable permuted, 100,000 permutations, seed
+20261126, two-sided, `p = (1 + #{|rho_perm| >= |rho_obs|}) / (1 + N)`.
+
+    python permutation_pvalues.py
+
+The analytic p from `reproduce_table12.py` (scipy's t approximation) is close but
+not identical, so the two must not be mixed in one table. The Monte-Carlo standard
+error is about 0.0016 at p = 0.5 and 0.0005 at p = 0.05, which is why the table
+quotes two decimals.
