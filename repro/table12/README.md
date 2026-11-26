@@ -50,3 +50,11 @@ The analytic p from `reproduce_table12.py` (scipy's t approximation) is close bu
 not identical, so the two must not be mixed in one table. The Monte-Carlo standard
 error is about 0.0016 at p = 0.5 and 0.0005 at p = 0.05, which is why the table
 quotes two decimals.
+
+## Estimator sensitivity
+
+`estimator_comparison.csv` gives the same 90 units twice: the step height from the
+single frozen realisation (`joined`) and from the ten-draw ensemble mean
+(`ensemble`), with the signed bias under each. `estimator_sensitivity.py` prints the
+pooled and within-target coefficients under both, and the distribution of the
+per-unit difference. This is the evidence behind Section S6.
